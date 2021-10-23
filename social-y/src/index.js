@@ -1,12 +1,13 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
+import './index.css';
+import App from './App';
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import dotenv from 'dotenv';
 import reportWebVitals from './reportWebVitals';
+import firebase from "firebase";
 
 dotenv.config();
 
@@ -27,9 +28,7 @@ const firebaseConfig = {
   measurementId: process.env.REACT_APP_MSMNT_ID
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+firebase.initializeApp(firebaseConfig);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
