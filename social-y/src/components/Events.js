@@ -71,23 +71,17 @@ function Events() {
             <div className="row">
                 <div className="col-3">
                     <Navigation
-                        // you can use your own router's api to get pathname
                         activeItemId=""
                         onSelect={({itemId}) => {
-                        // maybe push to the route
                         }}
                         items={[
                         {
                             title: 'Dashboard',
                             itemId: '/dashboard',
-                            // you can use your own custom Icon component as well
-                            // icon is optional
-                            // elemBefore: () => <Icon name="inbox" />,
                         },
                         {
                             title: 'Filters',
                             itemId: '/filters',
-                            // elemBefore: () => <Icon name="users" />,
                             subNav: [
                             {
                                 title: 'People',

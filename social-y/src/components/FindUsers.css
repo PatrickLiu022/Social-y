@@ -5,8 +5,8 @@
     font-size: 30px;
 }
 
-.names {
-    color: black;
+.names, .text {
+    color: white;
 }
 
 .card {

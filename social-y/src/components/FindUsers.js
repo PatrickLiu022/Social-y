@@ -27,16 +27,18 @@ function FindUsers() {
         content = userArr.map((obj) => {
             return (
             <div className='card'>
-                <Card body>
+                <Card style={{backgroundColor: '#f45454', borderColor: 'black'}} body>
                     <CardTitle>
+                        <img src={tempProfIcon} alt="temporary blank profile pic" className='icon'/>
                         <div className='names'>
-                            <img src={tempProfIcon} alt="temporary blank profile pic" className='icon'/>
                             {obj.fname} {obj.lname}
                         </div>
                     </CardTitle>
                     <CardText>
-                        {'Bio: Empty for now'} <br></br>
-                        {'Username: ' +  obj.username}
+                        <div className="text">
+                            {'Bio: ' + obj.desc} <br></br>
+                            {'Username: ' +  obj.username}
+                        </div>
                     </CardText>
                 </Card>
             </div>
@@ -49,7 +51,9 @@ function FindUsers() {
             <div>
                 <a href="/events" className='back-btn'>{'< ' + 'Back'}</a>
             </div>
-            {content}
+            <div>
+                {content}
+            </div>
         </div>
     )
 }
