@@ -3,10 +3,11 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Card, Button, CardTitle, CardText } from 'reactstrap';
 
+
 function Events() {
 
     // const { eventsId } = useParams();
-    const url = `https://6174c06c08834f0017c709f4.mockapi.io/events?p=1&l=10`;
+    const url = `${process.env.REACT_APP_DB_API}/events?p=1&l=10`;
     const[events, setEvents] = useState(null);
 
     let content;
