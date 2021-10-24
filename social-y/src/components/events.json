@@ -1,0 +1,77 @@
+[
+    {
+        "restaurants" : 
+        [
+            {
+                "name" : "Din Tai Fung",
+                "foodtype" : "Taiwanese"
+            },
+            {
+                "name" : "Memos",
+                "foodtype" : "Mexican"
+            },
+            {
+                "name" : "Joey's Kitche",
+                "foodtype" : "American"
+            },
+            {
+                "name" : "Aladdins",
+                "foodtype" : "Middle Eastern"
+            },
+            {
+                "name" : "Thaiger Room",
+                "foodtype" : "Thai"
+            }
+        ]
+    },
+    {
+        "shops" :
+        [
+            {
+                "name" : "Urban Outfitters",
+                "storetype" : "Trendy Fashion"
+            },
+            {
+                "name" : "Lucky Dog",
+                "storetype" : "Thrifting"
+            },
+            {
+                "name" : "Foot Locker",
+                "storetype" : "Sports Wear"
+            },
+            {
+                "name" : "Zumiez",
+                "storetype" : "Street Wear"
+            },
+            {
+                "name" : "Uniqlo",
+                "storetype" : "Simple Fashion"
+            }
+        ]
+    },
+    {
+        "events" :
+        [
+            {
+                "name" : "Concert",
+                "eventtype" : "Music Event"
+            },
+            {
+                "name" : "Football Game",
+                "eventtype" : "Game Event"
+            },
+            {
+                "name" : "HUB Game Room",
+                "eventtype" : "Small Event"
+            },
+            {
+                "name" : "Burke Gilman Trail",
+                "eventtype" : "Exercise Event"
+            },
+            {
+                "name" : "Pike Place",
+                "eventtype" : "Social Event"
+            }
+        ]
+    }
+]

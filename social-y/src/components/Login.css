@@ -1,0 +1,51 @@
+.login-form {
+    font-family: 'montserrat';
+    background: #CD4F4E;
+    height: 50vh;
+    overflow: hidden;
+    color: white;
+    border-radius: 20px;
+}
+
+.login-header{
+    border-bottom: 1px solid white;
+}
+.log-in {
+    padding: 5px;
+}
+
+.form {
+    margin: 10px;
+}
+
+.text-field {
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.text-field input{
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.text-col {
+    padding: 15px;
+}
+
+.text-field input::placeholder {
+    color: white;
+}
+
+.login-button {
+    border-radius: 10px;
+    color: black;
+    background-color:white;
+    border-style: none;
+}
+
+.login-button:hover {
+    color: white;
+    background-color: black;
+}
