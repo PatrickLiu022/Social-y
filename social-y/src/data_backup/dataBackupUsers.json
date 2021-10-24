@@ -1,0 +1,92 @@
+[
+    {
+     "fname": "James",
+     "lname": "Welch",
+     "birthday": "1996-04-21T14:37:23.074Z",
+     "username": "jwelch22",
+     "eventsId": 77,
+     "usersId": "1",
+     "eventId": "1"
+    },
+    {
+     "fname": "Richard",
+     "lname": "Huels",
+     "birthday": "1998-02-24T00:31:12.511Z",
+     "username": "richy19",
+     "eventsId": 14,
+     "usersId": "2",
+     "eventId": "2"
+    },
+    {
+     "fname": "Ben",
+     "lname": "Brekke",
+     "birthday": "2000-10-28T07:27:31.771Z",
+     "username": "Scotty_McLaughlin",
+     "eventsId": 40,
+     "usersId": "3",
+     "eventId": "2"
+    },
+    {
+     "fname": "Chad",
+     "lname": "Rosenbaum",
+     "birthday": "1999-03-26T22:58:24.441Z",
+     "username": "C.Rbaum59",
+     "eventsId": 60,
+     "usersId": "4",
+     "eventId": "2"
+    },
+    {
+     "fname": "Charlie",
+     "lname": "Koepp",
+     "birthday": "1999-12-19T07:28:29.989Z",
+     "username": "Lexus81",
+     "eventsId": 49,
+     "usersId": "5",
+     "eventId": "2"
+    },
+    {
+     "fname": "Elizabeth",
+     "lname": "Gerlach",
+     "birthday": "2002-02-17T17:28:15.583Z",
+     "username": "Elizabeth_Gerlach",
+     "eventsId": 14,
+     "usersId": "6",
+     "eventId": "3"
+    },
+    {
+     "fname": "Diana",
+     "lname": "Fritsch",
+     "birthday": "2002-01-06T11:53:51.809Z",
+     "username": "Diana.Romaguera98",
+     "eventsId": 94,
+     "usersId": "7",
+     "eventId": "3"
+    },
+    {
+     "fname": "Charlotte",
+     "lname": "Yundt",
+     "birthday": "1995-12-03T19:31:56.201Z",
+     "username": "Yundtn85",
+     "eventsId": 38,
+     "usersId": "8",
+     "eventId": "3"
+    },
+    {
+     "fname": "Rachel",
+     "lname": "Doyle",
+     "birthday": "2001-12-01T05:57:13.623Z",
+     "username": "RaDo115",
+     "eventsId": 11,
+     "usersId": "9",
+     "eventId": "3"
+    },
+    {
+     "fname": "Chet",
+     "lname": "Wolff",
+     "birthday": "1997-04-10T08:27:11.415Z",
+     "username": "Austin84",
+     "eventsId": 54,
+     "usersId": "10",
+     "eventId": "4"
+    }
+   ]

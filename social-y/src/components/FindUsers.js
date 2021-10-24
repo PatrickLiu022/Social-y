@@ -26,16 +26,15 @@ function FindUsers() {
         content = userArr.map((obj) => {
             return (
             <div className='card'>
-                {/* ADD CAROSOUELDDOKL */}
-                {/* Get event number to display title from json file (not created yet) */}
                 <Card body>
                     <CardTitle>
-                        <h2>{obj.fname}, {obj.lname}</h2>
+                        <div>Something</div>
+                        {obj.fname}
                     </CardTitle>
                     <CardText>
-                        <div>{obj.username}</div>
+                        {'Name: ' + obj.fname + ' '}{obj.lname + '      '}
                         {/* div for profile description */}
-                        <div>{obj.birthday}</div>
+                        {'Username: ' +  obj.username}
                     </CardText>
                 </Card>
             </div>
@@ -45,7 +44,9 @@ function FindUsers() {
 
     return (
         <div>
-            Find users
+            <div>
+                <a href="/events" className='back-btn'>{'< ' + 'Back'}</a>
+            </div>
             {content}
         </div>
     )

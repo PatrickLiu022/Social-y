@@ -1,0 +1,36 @@
+.card-title {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+}
+
+.card-content {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.cards {
+    padding-bottom: 15px;
+}
+
+.event-button {
+    font-family: 'Bebas Neue';
+    font-size: '50px';
+    background-color: #1B181A;
+    border: #1B181A;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    transition: 0.4s;
+}
+
+.event-button:hover {
+    background: #DED8C3;
+    color: #1B181A;
+    padding: 14px;
+}
+
+.redirect {
+    padding: 5px;
+    height: 48px;
+}
