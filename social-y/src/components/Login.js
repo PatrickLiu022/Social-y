@@ -1,16 +1,16 @@
 import React from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import 'firebase/auth';
+import SocialyLogo from '../img/DHLogo500.png'
+import Skyline from '../img/citySkyline.png';
 import './Login.css';
 
 function Login() {
 
     return (
         <div>
-            <div className="row">
-                <div className='logo col-6 col-lg-9'>
-                    <h1>LOGO</h1>
-                    <p>Social-y</p>
+            <div className="row justify-content-around">
+                <div className='logo col-6 col-lg-9' style={{backgroundImage: `url(${Skyline})`}}>
+                    <img src={SocialyLogo} alt='socialyLogo' className='socialy'/>
                 </div>
                 <div className="login-form col-6 col-lg-3">
                     <div className='row justify-content-center login-header'>
@@ -41,6 +41,9 @@ function Login() {
                             </div>
                         </div>
                     </form>
+                </div>
+                <div className="col-lg-10">
+                    <img src={Skyline} alt="city skyline" className='skyline'/>
                 </div>
             </div>
         </div>

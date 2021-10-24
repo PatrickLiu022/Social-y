@@ -6,8 +6,8 @@ import { Card, Button, CardTitle, CardText } from 'reactstrap';
 
 function Events() {
 
-    // const { eventsId } = useParams();
     const url = `${process.env.REACT_APP_DB_API}/events?p=1&l=10`;
+    // ?p=1&l=10
     const[events, setEvents] = useState(null);
 
     let content;
@@ -45,11 +45,20 @@ function Events() {
         });
     }
 
-    console.log('events: ', events);
-    console.log('contents: ', content);
-
     return (
-        <div>{content}</div>
+        <div className='container-fluid'>
+            <div className="row">
+                <div className="col-2">
+                    sidebar
+                </div>
+                <div className="col-8">
+                    {content}
+                </div>
+                <div className="col-2">
+                    idk
+                </div>
+            </div>
+        </div>
     )
 
 }

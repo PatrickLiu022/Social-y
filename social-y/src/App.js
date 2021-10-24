@@ -2,6 +2,7 @@ import './App.css';
 import Landing from './Landing';
 import LoginHeader from './global_components/LoginHeader'
 import Events from './components/Events';
+import FindUsers from './components/FindUsers';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 
@@ -15,11 +16,11 @@ function App() {
         <div className="content">
           <Switch>
             <Route path='/login' render={Landing} />
-            <Route path='/events/:eventsId'>
+            <Route path='/events' render={Events} exact>
               <Events />
             </Route>
-            <Route path='/events' exact>
-              <Events />
+            <Route path='/events/:eventsId/users'>
+              <FindUsers />
             </Route>
             <Redirect to='/login' />
           </Switch>
