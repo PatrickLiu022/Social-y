@@ -1,5 +1,6 @@
 import './Landing.css';
 import Login from'./components/Login';
+import Skyline from './img/citySkyline.png';
 
 function Landing () {
 

@@ -59,14 +59,12 @@ img.skyline {
     margin-top: -120px;
 }
 
-@media (min-width: 992px) {
-    img.socialy {
-        width: 50%;
-    }
+.nav-to-events {
+    text-decoration: none;
+    color: #F45454;
 }
 
-@media (min-width: 1220px) {
-    img.skyline {
-        margin-top: -600px;
-    }
+.nav-to-events, .beta-message {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
 }

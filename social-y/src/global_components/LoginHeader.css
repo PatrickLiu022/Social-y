@@ -4,3 +4,16 @@
     color: #CD4F4E;
 }
 
+.small-logo {
+    height: 60px;
+}
+
+.img {
+    height: 50px;
+    margin: 4px 4px;
+}
+
+.beta {
+    text-decoration: none;
+    color: #F45454;
+}

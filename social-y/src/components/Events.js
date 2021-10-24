@@ -35,13 +35,23 @@ function Events() {
                         <CardText>
                             <div className='card-content'>
                                 <h3>
-                                    {obj.type}
+                                    Event Type: {obj.type}
                                 </h3>
                                 <div>
-                                    {obj.desc}
-                                    {obj.date}
-                                    {obj.count}
-                                    {obj.eventsId}
+                                    <div className='overview'>
+                                        <p>Overview</p>
+                                        {obj.desc}
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li>
+                                                <p>Event Date: {obj.date}</p>  
+                                            </li>
+                                            <li>
+                                                <p>People Count: {obj.count}</p>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </CardText>
@@ -59,44 +69,44 @@ function Events() {
     return (
         <div className='container-fluid event-page'>
             <div className="row">
-                <div className="col-2">
+                <div className="col-3">
                     <Navigation
-            // you can use your own router's api to get pathname
-            activeItemId=""
-            onSelect={({itemId}) => {
-              // maybe push to the route
-            }}
-            items={[
-              {
-                title: 'Dashboard',
-                itemId: '/dashboard',
-                // you can use your own custom Icon component as well
-                // icon is optional
-                // elemBefore: () => <Icon name="inbox" />,
-              },
-              {
-                title: 'Filters',
-                itemId: '/filters',
-                // elemBefore: () => <Icon name="users" />,
-                subNav: [
-                  {
-                    title: 'People',
-                    itemId: '/filters/people',
-                  },
-                  {
-                    title: 'Event Type',
-                    itemId: '/filters/eventType',
-                  },
-                  {
-                      title: 'Time',
-                      itemId: '/filters'
-                  }
-                ],
-              },
-            ]}
-          />
+                        // you can use your own router's api to get pathname
+                        activeItemId=""
+                        onSelect={({itemId}) => {
+                        // maybe push to the route
+                        }}
+                        items={[
+                        {
+                            title: 'Dashboard',
+                            itemId: '/dashboard',
+                            // you can use your own custom Icon component as well
+                            // icon is optional
+                            // elemBefore: () => <Icon name="inbox" />,
+                        },
+                        {
+                            title: 'Filters',
+                            itemId: '/filters',
+                            // elemBefore: () => <Icon name="users" />,
+                            subNav: [
+                            {
+                                title: 'People',
+                                itemId: '/filters/people',
+                            },
+                            {
+                                title: 'Event Type',
+                                itemId: '/filters/eventType',
+                            },
+                            {
+                                title: 'Time',
+                                itemId: '/filters'
+                            }
+                            ],
+                        },
+                        ]}
+                    />
                 </div>
-                <div className="col-8">
+                <div className="col-7">
                     <div >
                         {content}
                     </div>

@@ -2,7 +2,8 @@ import './FindUsers.css';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import { Card, Button, CardTitle, CardText } from 'reactstrap';
+import { Card, CardTitle, CardText } from 'reactstrap';
+import tempProfIcon from '../img/icon.png'
 
 function FindUsers() {
 
@@ -28,12 +29,13 @@ function FindUsers() {
             <div className='card'>
                 <Card body>
                     <CardTitle>
-                        <div>Something</div>
-                        {obj.fname}
+                        <div className='names'>
+                            <img src={tempProfIcon} alt="temporary blank profile pic" className='icon'/>
+                            {obj.fname} {obj.lname}
+                        </div>
                     </CardTitle>
                     <CardText>
-                        {'Name: ' + obj.fname + ' '}{obj.lname + '      '}
-                        {/* div for profile description */}
+                        {'Bio: Empty for now'} <br></br>
                         {'Username: ' +  obj.username}
                     </CardText>
                 </Card>

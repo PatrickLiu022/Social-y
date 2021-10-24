@@ -4,3 +4,15 @@
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
 }
+
+.names {
+    color: black;
+}
+
+.card {
+    padding-bottom: 10px;
+}
+
+.icon {
+    width: 5%;
+}

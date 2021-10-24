@@ -1,5 +1,5 @@
-import Login from '../components/Login';
 import './LoginHeader.css'
+import Simg from '../img/DubHacksMobileIcon.png';
 
 function Header() {
     return(
