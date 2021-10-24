@@ -1,5 +1,5 @@
 import testMessage from '../img/MessageInterface.png';
-import './testMessagePage.css';
+import './css/testMessagePage.css';
 
 function testMessageApp() {
     return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import LoginPage from '../img/LoginPage.png';
-import './Login.css';
+import './css/Login.css';
 
 function Login() {
 
